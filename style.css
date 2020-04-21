@@ -1,0 +1,39 @@
+.has-image-centered
+.fullNameLogo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fullNameLogo {
+    height: 50px;
+}
+
+.fig-caption {
+      font-family: 'Jura', sans-serif;
+      color: #f14668;
+}
+
+.carousel {
+      width: 500px;
+      margin: auto;
+}
+
+#welcomeMsg {
+      float: right;
+      margin-right: 10px;
+      font-size: x-large;
+      font-family: 'Jura', sans-serif;
+      font-weight: bolder;
+}
+
+.fig-caption,
+.contactInfo {
+text-align: center;
+}
+
+.navbar-item,
+.btmNavTitle,
+.bioText {
+    font-family: 'Jura', sans-serif;
+}
+ 

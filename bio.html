@@ -63,20 +63,50 @@
     </nav>
     <br>
 
-    <!-- Carousel -->
-    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="assets/logos/logoTransparent.png" class="d-block w-100" alt="ISF logo">
+    <div class="container">
+        <div class="columns">
+            <!-- About me picture -->
+            <div class="column is-one-third">
+                <figure class="image is 4by5">
+                    <image src="assets/aboutMe/IMG_03bw.jpg"></image>
+                </figure>
             </div>
-            <div class="carousel-item">
-                <img src="assets/logos/logoFullName.png" class="d-block w-100" alt="ISF logo">
+
+            <!-- About me text -->
+            <div class="column">
+                <div class="box bioText">
+                    Hi and welcome my page!<br>
+                    <br>
+                    My name is Ioannis but people call me Giannis (it's Greek for John).<br>
+                    <br>
+                    After working for several years as a teacher, I recently discovered my love for sofware engineering
+                    and decided to change my career and pursue my dream.<br>
+                    <br>
+                    So I signed up for a coding bootcamp with the University of Pennsylvania and begun my journey as a
+                    full stack web developer.<br>
+                    <br>
+                    It was one of the toughest things that I did in my life but after a lot of determination and effort
+                    I made it!<br>
+                    <br>
+                    So it is with great pride that I present to you some of my work (individual and collaborative) as
+                    I'm honing my craft as a web developer.<br>
+                    <br>
+                    I hope you enjoy!<br>
+                    <br>
+                </div>
+                <button class="button is-danger" id="pdfBtn">View full resume in PDF</button>
             </div>
         </div>
     </div>
-    <br>
 
-    <h1 id="welcomeMsg">&#60;welcome/bienvenido καλώς ήρθατε&#62;</h1>
+    <!-- Resume pdf modal -->
+    <div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <iframe src="assets/resumeSporidisFoster.pdf" width="640px" height="1500px"></iframe>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
 </body>
 
 <!-- Optional JavaScript -->
