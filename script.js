@@ -24,12 +24,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
+// Modals
 // PDF modal activation
 $("#pdfBtn").on("click", function () {
     $(".modal").addClass("is-active");
 })
 
-// PDF modal de-activation
+// Readme Generator demo modal activation
+$("#readmeBtn").on("click", function () {
+    $("#readmeModal").addClass("is-active");
+})
+
+// Team Tracker demo modal activation
+$("#teamBtn").on("click", function () {
+    $("#teamModal").addClass("is-active");
+})
+
+// Employee Tracker demo modal activation
+$("#employeeBtn").on("click", function () {
+    $("#employeeModal").addClass("is-active");
+})
+
+// Modal de-activation
 $(".modal-close").on("click", function () {
     $(".modal").removeClass("is-active");
 })
